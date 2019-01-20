@@ -48,11 +48,11 @@ package:
   exclude:
     - ./**
   include:
-    - handler.py
+    - hello/handler.py
 
 functions:
   webapi:
-    handler: handler.hello
+    handler: hello/handler.hello
     events:
     - http: GET hello
 

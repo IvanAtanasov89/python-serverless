@@ -17,8 +17,3 @@ pipenv run test
 # deploy to aws
 pipenv run deploy
 ```
-
-TODO
-
-- Move source code into subdir
-- style checks
