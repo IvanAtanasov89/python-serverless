@@ -6,8 +6,5 @@
   "devDependencies": {
     "serverless": "1.36.1",
     "serverless-python-requirements": "^4.2.5"
-  },
-  "scripts": {
-    "deploy": "sls deploy --profile personal"
   }
 }
