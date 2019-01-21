@@ -15,5 +15,5 @@ python_version = "3.6"
 
 [scripts]
 deploy = "npx sls deploy --aws-profile personal"
-test = "pytest tests/"
+test = "python -m pytest tests/"
 style = "flake8 hello/"
